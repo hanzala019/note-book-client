@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './style.css'
 import Searchbar from './Searchbar';
 
-const url = 'http://localhost:5000';
+const url = 'https://note--book.herokuapp.com';
 const api = axios.create({baseURL:url})
 
 const Notes = () => {
