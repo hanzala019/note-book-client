@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './style.css'
 import Searchbar from './Searchbar';
 
-const url = 'https://note--book.herokuapp.com';
+const url = 'http://localhost:5000';
 const api = axios.create({baseURL:url})
 
 const Notes = () => {
@@ -45,7 +45,7 @@ const [searchTerm, setSearchTerm] = useState('')
 
         
        </div>
-   );
+   
 
 
         <div className=' container1' style={{marginTop: '60px'}}>
