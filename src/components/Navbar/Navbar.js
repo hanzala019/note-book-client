@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='container'>
           
             <div className='logo'>
-              <a href='http://localhost:3000/' style={{textDecoration: 'none', color: 'rgb(146, 216, 193)'}}> <h1>NOTEBOOK</h1> </a>  
+              <a href='https://note--book.herokuapp.com/' style={{textDecoration: 'none', color: 'rgb(146, 216, 193)'}}> <h1>NOTEBOOK</h1> </a>  
             </div>
         </div>
     );

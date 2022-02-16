@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './style1.css';
 
-const url = 'http://localhost:5000';
+const url = 'https://note--book.herokuapp.com/';
 const api = axios.create({baseURL:url})
 
 const Form = () => {

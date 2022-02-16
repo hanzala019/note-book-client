@@ -3,7 +3,7 @@ import axios from 'axios';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import './style.css'
 
-const url = 'http://localhost:5000';
+const url = 'https://note--book.herokuapp.com/';
 const api = axios.create({baseURL:url})
 
 const Note = () => {
